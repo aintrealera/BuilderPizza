@@ -8,6 +8,10 @@ public class Pizza {
     private final String toppings;
     private final String size;
 
+    public String getSize() {
+        return size;
+    }
+
     public Pizza(String dough, String sauce, String cheese,
                  String toppings, String size) {
         this.dough = dough;
