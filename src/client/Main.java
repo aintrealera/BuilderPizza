@@ -18,6 +18,7 @@ public class Main {
         Pizza vegetarianPizza = director.makeVegetarianPizza(
                 new VegetarianPizzaBuilder()
         );
+        System.out.println("Available pizza configurations:");
 
         System.out.println("REGULAR PIZZA");
         System.out.println(regularPizza);
